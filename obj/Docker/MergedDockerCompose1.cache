@@ -1,0 +1,23 @@
+services:
+  sportstore.web:
+    build:
+      args:
+        source: obj/Docker/empty/
+      context: C:\Workspaces\Own\SportStore_Tutorial\SportStore.Web
+      dockerfile: Dockerfile
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+    image: sportstore.web:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/bash -c "if PID=$$(pidof
+        -x dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - 80/tcp
+    volumes:
+    - C:\Workspaces\Own\SportStore_Tutorial\SportStore.Web:/app:rw
+    - C:\Users\myhair\vsdbg:/remote_debugger:ro
+version: '3.0'

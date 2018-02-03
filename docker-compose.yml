@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  sportstore.web:
+    image: sportstore.web
+    build:
+      context: ./SportStore.Web
+      dockerfile: Dockerfile

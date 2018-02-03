@@ -1,0 +1,15 @@
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\bin\Debug\netcoreapp2.0\TestApp.Console.deps.json
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\bin\Debug\netcoreapp2.0\TestApp.Console.runtimeconfig.json
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\bin\Debug\netcoreapp2.0\TestApp.Console.runtimeconfig.dev.json
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\bin\Debug\netcoreapp2.0\TestApp.Console.dll
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\bin\Debug\netcoreapp2.0\TestApp.Console.pdb
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\bin\Debug\netcoreapp2.0\SportStore.Common.dll
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\bin\Debug\netcoreapp2.0\SportStore.DataAccess.dll
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\bin\Debug\netcoreapp2.0\SportStore.DataAccess.pdb
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\bin\Debug\netcoreapp2.0\SportStore.Common.pdb
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\obj\Debug\netcoreapp2.0\TestApp.Console.csprojResolveAssemblyReference.cache
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\obj\Debug\netcoreapp2.0\TestApp.Console.csproj.CoreCompileInputs.cache
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\obj\Debug\netcoreapp2.0\TestApp.Console.AssemblyInfoInputs.cache
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\obj\Debug\netcoreapp2.0\TestApp.Console.AssemblyInfo.cs
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\obj\Debug\netcoreapp2.0\TestApp.Console.dll
+C:\Workspaces\Own\SportStore_Tutorial\TestApp.Console\obj\Debug\netcoreapp2.0\TestApp.Console.pdb

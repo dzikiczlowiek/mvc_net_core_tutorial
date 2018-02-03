@@ -1,0 +1,17 @@
+C:\Workspaces\Own\SportStore.DataAccess\bin\Debug\netcoreapp2.0\SportStore.DataAccess.deps.json
+C:\Workspaces\Own\SportStore.DataAccess\bin\Debug\netcoreapp2.0\SportStore.DataAccess.dll
+C:\Workspaces\Own\SportStore.DataAccess\obj\Debug\netcoreapp2.0\SportStore.DataAccess.csprojResolveAssemblyReference.cache
+C:\Workspaces\Own\SportStore.DataAccess\obj\Debug\netcoreapp2.0\SportStore.DataAccess.csproj.CoreCompileInputs.cache
+C:\Workspaces\Own\SportStore.DataAccess\obj\Debug\netcoreapp2.0\SportStore.DataAccess.AssemblyInfoInputs.cache
+C:\Workspaces\Own\SportStore.DataAccess\obj\Debug\netcoreapp2.0\SportStore.DataAccess.AssemblyInfo.cs
+C:\Workspaces\Own\SportStore_Tutorial\SportStore.DataAccess\bin\Debug\netcoreapp2.0\SportStore.DataAccess.deps.json
+C:\Workspaces\Own\SportStore_Tutorial\SportStore.DataAccess\bin\Debug\netcoreapp2.0\SportStore.DataAccess.dll
+C:\Workspaces\Own\SportStore_Tutorial\SportStore.DataAccess\bin\Debug\netcoreapp2.0\SportStore.DataAccess.pdb
+C:\Workspaces\Own\SportStore_Tutorial\SportStore.DataAccess\bin\Debug\netcoreapp2.0\SportStore.Common.dll
+C:\Workspaces\Own\SportStore_Tutorial\SportStore.DataAccess\bin\Debug\netcoreapp2.0\SportStore.Common.pdb
+C:\Workspaces\Own\SportStore_Tutorial\SportStore.DataAccess\obj\Debug\netcoreapp2.0\SportStore.DataAccess.csprojResolveAssemblyReference.cache
+C:\Workspaces\Own\SportStore_Tutorial\SportStore.DataAccess\obj\Debug\netcoreapp2.0\SportStore.DataAccess.csproj.CoreCompileInputs.cache
+C:\Workspaces\Own\SportStore_Tutorial\SportStore.DataAccess\obj\Debug\netcoreapp2.0\SportStore.DataAccess.AssemblyInfoInputs.cache
+C:\Workspaces\Own\SportStore_Tutorial\SportStore.DataAccess\obj\Debug\netcoreapp2.0\SportStore.DataAccess.AssemblyInfo.cs
+C:\Workspaces\Own\SportStore_Tutorial\SportStore.DataAccess\obj\Debug\netcoreapp2.0\SportStore.DataAccess.dll
+C:\Workspaces\Own\SportStore_Tutorial\SportStore.DataAccess\obj\Debug\netcoreapp2.0\SportStore.DataAccess.pdb

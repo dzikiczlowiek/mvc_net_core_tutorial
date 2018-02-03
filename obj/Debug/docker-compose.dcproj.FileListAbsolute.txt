@@ -1,0 +1,1 @@
+C:\Workspaces\Own\SportStore_Tutorial\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

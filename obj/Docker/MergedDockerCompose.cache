@@ -1,0 +1,11 @@
+services:
+  sportstore.web:
+    build:
+      context: C:\Workspaces\Own\SportStore_Tutorial\SportStore.Web
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: sportstore.web
+    ports:
+    - 80/tcp
+version: '3.0'
