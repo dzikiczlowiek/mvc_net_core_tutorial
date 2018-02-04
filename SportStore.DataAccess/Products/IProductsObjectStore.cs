@@ -17,5 +17,7 @@
         IEnumerable<Product> GetPaged(int page, int pageSize = 10);
 
         IEnumerable<Product> GetFiltered(string category, int page, int pageSize = 10);
+
+        void Remove(long productId);
     }
 }

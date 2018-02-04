@@ -12,6 +12,10 @@
 
         ProductItem GetById(long id);
 
+        void Store(ProductItem product);
+
         IEnumerable<string> Categories();
+
+        ProductItem Delete(long productId);
     }
 }

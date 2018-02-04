@@ -61,6 +61,14 @@
             return GetAll(productIds).ToList();
         }
 
+        public void Remove(long productId)
+        {
+            if (Exist(productId))
+            {
+                Delete(productId);      
+            }
+        }
+
         public IEnumerable<string> GetAllCategories()
         {
             var results = Database.SetMembers(CategoryIndex.Path).Select(x => (string)x);

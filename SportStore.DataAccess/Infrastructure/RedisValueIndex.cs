@@ -46,7 +46,9 @@
 
         public override void RemoveIndex(IDatabase database, TEntity entity, string entityKey)
         {
-           // TODO: not needed?
+            var indexValue = Map.Compile()(entity);
+            var indexKey = $"{Constants.Namespace.Index}:{Name}:{indexValue}";
+            database.SortedSetRemove(indexKey, entityKey, CommandFlags.FireAndForget);
         }
 
         public override string GetIndex()

@@ -24,7 +24,19 @@
 
         public ProductItem GetById(long id) => productsObjectStore.Get(id).Map();
 
+        public void Store(ProductItem product)
+        {
+            productsObjectStore.Store(product.Map());
+        }
+
+
         public IEnumerable<string> Categories() => productsObjectStore.GetAllCategories();
 
+        public ProductItem Delete(long productId)
+        {
+            var product = productsObjectStore.Get(productId);
+            productsObjectStore.Remove(productId);
+            return product.Map();
+        }
     }
 }

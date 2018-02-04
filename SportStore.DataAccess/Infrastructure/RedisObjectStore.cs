@@ -99,15 +99,29 @@
             }
         }
 
-        public virtual void Delete(string key)
+        public void Delete(long id)
         {
-            if (string.IsNullOrWhiteSpace(key) || key.Contains(":"))
+            Delete(id.ToString());
+        }
+
+        public virtual void Delete(string keySuffix)
+        {
+            if (string.IsNullOrWhiteSpace(keySuffix) || keySuffix.Contains(":"))
             {
                 throw new ArgumentException("invalid key");
             }
 
-            key = GenerateKey(key);
+            var key = GenerateKey(keySuffix);
+            var getOriginal = Get(keySuffix);
             Database.KeyDelete(key);
+
+            foreach (var index in Indexes)
+            {
+                if (getOriginal != null)
+                {
+                    index.Value.RemoveIndex(Database, getOriginal, key);
+                }
+            }
         }
 
         protected virtual void AddIndexes()
